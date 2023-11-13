@@ -24,7 +24,7 @@ server.app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 
 // API Base Route Handler
 server.app.get('/', function (req, res) {
-  res.send('Sushi users server API has been Initialized');
+  res.send('Sushi users API has been Initialized');
 });
 
 // API Handler
