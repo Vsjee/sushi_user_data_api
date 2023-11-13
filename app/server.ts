@@ -6,7 +6,6 @@ import http from 'http';
 export default class Server {
   public app: express.Application;
   public port: number;
-  public redisClient: any;
 
   private httpServer: http.Server;
 
